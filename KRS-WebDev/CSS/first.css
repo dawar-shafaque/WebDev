@@ -1,0 +1,34 @@
+h1{
+    color: greenyellow;
+} 
+#dawar{
+    color: bisque;
+} 
+.c1{
+    color: red;
+} 
+div p{
+    background-color: blanchedalmond;
+}
+div > p{
+    background-color: aqua;
+    font-size: xx-large;
+} 
+#para::first-line{
+    color:red;
+}
+.c{
+    background-color: blanchedalmond;
+} 
+.c2{
+    background-color: aqua;
+}
+.c3{
+    background-color: blue;
+} 
+.c4{
+    float: left;
+} 
+.c,.c2,.c3{ 
+    float:inherit;
+}

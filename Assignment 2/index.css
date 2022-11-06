@@ -1,0 +1,82 @@
+body{
+    background-color: #181818;
+    color: white;
+}
+/* h1{
+    align-items: center; 
+}  */
+.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 30px; 
+    font-size: large; 
+    position: sticky;
+    
+} 
+.box{
+    margin-right: 70px;
+    margin-left: 80px; 
+    margin-top: 25px;
+    width: 40px;
+} 
+#figma{
+    margin-top: 0px;
+} 
+.img{
+    margin-left: 30px;
+}
+#login{
+    border: 2px solid white;
+    padding-left: 8px;
+    /* padding-top: 10px; */
+    padding-bottom: 15px; 
+    padding-top: 8px;
+    padding-right: 10px;
+    margin-top: 10px; 
+    height: 15px;
+} 
+.heading{ 
+    width: 750px;
+    margin-left: 320px; 
+    margin-top: 100px; 
+    margin-bottom: 0px; 
+    font-size: 80px;
+} 
+.heading2{
+    font-size: xx-large;
+    margin-left: 430px; 
+    margin-top: 10px; 
+    font-size: 80px;
+} 
+.para{
+    font-size: 20px;
+    margin-top:60px;
+}
+#para1{
+    margin-left: 400px;
+    width: 450px;
+}
+
+#para2{
+    margin-left: 390px;
+} 
+
+#para3{
+    margin-left: 500px;
+} 
+.bottomContainer button{
+    height: 50px;
+} 
+.try{
+    background-color: blue; 
+    margin-left: 400px; 
+    margin-right: 100px;
+    padding-left: 40px; 
+    padding-right: 40px;
+} 
+.learn{
+    background-color: white;
+    padding-left: 40px; 
+    padding-right: 40px;
+}

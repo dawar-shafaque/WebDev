@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="id1" onmouseover="change()">
+        My Heading 1
+    </h1>
+    <button type="button" onclick="change()"> CLICK ME!</button> 
+    <h2>JavaScript Html</h2> 
+    name <input type="text" id="fname" onchange="upperCase()">  -->
+    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, magni.</p>  -->
+
+    <h1 id="id1" >
+        My Heading 1
+    </h1>
+    <button type="button" > CLICK ME!</button>  
+    
+
+    <script> 
+
+var elem = document.getElementById("id1");
+    elem.addEventListener('click',change)
+         function change(){
+           document.getElementById('id1').style.color = 'red'
+         } 
+        // function upperCase() {
+        //     const x = document.getElementById("fname");
+        //     x.value = x.value.toUpperCase();
+        // }
+    </script>
+</body>
+</html>
